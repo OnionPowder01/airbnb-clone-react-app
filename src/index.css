@@ -109,3 +109,28 @@ color: #222222;
 .card--price {
   margin-top: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .cards-list {
+    justify-content: initial;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .hero-container {
+    display: flex;
+    padding: 1.3em;
+    flex-direction: column;
+  }
+
+  .para-hero {
+    max-width: 100%;
+    font-size: 1.2em;
+  }
+
+  .collage-grid {
+    width: 90%;
+    margin-bottom: -30px;
+    margin-top: 15px;
+  }
+}
