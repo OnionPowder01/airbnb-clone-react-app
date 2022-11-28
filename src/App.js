@@ -5,18 +5,12 @@ import Data from "./components/Data";
 import React from "react";
 
 export default function App() {
-  const cardsData = Data.map((everyCard) => {
-    return (
-      <Card
-        img={everyCard.coverImg}
-        rating={everyCard.stats.rating}
-        reviewCount={everyCard.stats.reviewCount}
-        location={everyCard.location}
-        title={everyCard.title}
-        price={everyCard.price}
-        openSpots={everyCard.openSpots}
-      />
-    );
+  const cardsData = Data.map((item) => {
+    console.log(item)
+    return <Card 
+              key={item.id} 
+              item={item} />;
+    
   });
 
   return (
