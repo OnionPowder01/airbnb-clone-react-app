@@ -67,7 +67,7 @@ color: #222222;
 }
 
 .card {
-    width: 20em;
+    width: 25em;
     font-size: 12px;
     flex: 0 0 auto;         /* ADD */
     display: flex;          /* ADD */
@@ -150,5 +150,9 @@ color: #222222;
     font-size: 2.5rem;
     line-height: 110%;
     color: #000000;
+    }
+
+    .card {
+      width: 20em;
     }
 }
