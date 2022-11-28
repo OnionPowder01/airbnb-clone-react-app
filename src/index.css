@@ -121,7 +121,7 @@ color: #222222;
     display: flex;
     padding: 1.3em;
     flex-direction: column;
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .para-hero {
