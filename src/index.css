@@ -111,17 +111,21 @@ color: #222222;
 }
 
 @media screen and (max-width: 600px) {
+
+
   .cards-list {
     justify-content: initial;
     margin-left: 20px;
     margin-right: 20px;
+    max-width: 90%;
   }
 
   .hero-container {
     display: flex;
     padding: 1.3em;
     flex-direction: column;
-    max-width: 90%;
+    max-width: 80%;
+    margin: 2px;
   }
 
   .para-hero {
@@ -130,8 +134,21 @@ color: #222222;
   }
 
   .collage-grid {
-    width: 90%;
+    width: 100%;
     margin-bottom: -30px;
     margin-top: 15px;
+    margin-left: 50px
   }
+
+  .collage-image {
+  }
+
+  .h1-hero {
+    margin-top: 1em;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 110%;
+    color: #000000;
+    }
 }
