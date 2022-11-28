@@ -20,7 +20,9 @@ export default function App() {
     <div className="big-container">
       <Navbar />
       <Hero />
+      <section className="cards-list">
       {cardsData}
+      </section>
     </div>
   );
 }

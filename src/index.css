@@ -7,9 +7,7 @@ body {
   font-family: 'Poppins';
 }
 
-.big-container {
 
-}
 
 .navbar-container {
   display: flex;
@@ -69,26 +67,45 @@ color: #222222;
 }
 
 .card {
-  width: 12em ;
-  font-size: .9rem;
+    width: 20em;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
 }
 
 .card--image {
   width: 100%;
   border-radius: 9px;
+  
+}
+
+.cards-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card--stats {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  margin-top: 10px;
 }
 
 .card--star {
   height: 14px;
 }
 
-.card--para {
+.card--title, .card--price {
   margin-top: 6px;
   margin-bottom: 6px;
+}
+
+.card--price {
+  margin-top: auto;
 }

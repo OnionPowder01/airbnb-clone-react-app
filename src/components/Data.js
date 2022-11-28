@@ -3,7 +3,6 @@ import wedding from '../images/wedding-photography.png'
 import mountainBike from '../images/mountain-bike.png'
 
 
-
  const arrayData =
 [
     {
@@ -18,7 +17,6 @@ import mountainBike from '../images/mountain-bike.png'
         },
         location: " Online",
         openSpots: 0,
-        // eslint-disable-next-line
     },
     {
         id: 2,
