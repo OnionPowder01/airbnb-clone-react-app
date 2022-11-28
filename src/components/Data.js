@@ -15,7 +15,7 @@ import mountainBike from '../images/mountain-bike.png'
             rating: 5.0,
             reviewCount: 6
         },
-        location: " Online",
+        location: "Online",
         openSpots: 0,
     },
     {
@@ -28,7 +28,7 @@ import mountainBike from '../images/mountain-bike.png'
             rating: 5.0,
             reviewCount: 30
         },
-        location: " Online",
+        location: "Online",
         openSpots: 27,
     },
     {
@@ -41,7 +41,7 @@ import mountainBike from '../images/mountain-bike.png'
             rating: 4.8,
             reviewCount: 2
         },
-        location: " Norway",
+        location: "Norway",
         openSpots: 3,
     }
 ]
